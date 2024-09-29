@@ -1,1 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>私の最初のウェブページ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSSのリンク（スタイルシート） -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 20px;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        main {
+            background-color: white;
+            padding: 20px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        a {
+            color: #1a0dab;
+        }
+    </style>
+</head>
+<body>
+    <!-- ヘッダーセクション -->
+    <header>
+        <h1>ようこそ！</h1>
+    </header>
+
+    <!-- メインコンテンツセクション -->
+    <main>
+        <h2>私について</h2>
+        <p>こんにちは！これは私の最初ウェブページです。ここでは、私の趣味やプロジェクトについて紹介します
+          。</p>
+
+        <h3>趣味</h3>
+        <ul>
+            <li>読書</li>
+            <li>プログラミング</li>
+            <li>ハイキング</li>
+        </ul>
+
+        <h3>お気に入りのリンク</h3>
+        <p>もっと学びたい方は、以下のリンクをチェックしてください：</p>
+        <ul>
+            <li><a href="https://www.w3schools.com" target="_blank">W3Schools - HTMLチュートリアル</a></li>
+            <li><a href="https://developer.mozilla.org/ja/docs/Web/HTML" target="_blank">MDN Web Docs - HTMLガイド</a></li>
+        </ul>
+
+        <h3>お問い合わせ</h3>
+        <form action="#" method="post">
+            <label for="name">名前:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">メールアドレス:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="message">メッセージ:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+            
+            <input type="submit" value="送信">
+        </form>
+    </main>
+
+    <!-- フッターセクション -->
+    <footer>
+        <p>&copy; 2024 私のウェブページ</p>
+    </footer>
+</body>
+</html>
 
